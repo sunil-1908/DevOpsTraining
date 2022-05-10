@@ -1,64 +1,8 @@
-suniljainvodafo@ip-172-31-30-68:~/Desktop$ cd
-
 suniljainvodafo@ip-172-31-30-68:~$ git --version
 
 git version 2.34.1
 
 suniljainvodafo@ip-172-31-30-68:~$ sudo apt-get install git  (If  git is not available)
-
-Reading package lists... Done
-
-Building dependency tree       
-
-Reading state information... Done
-
-The following packages were automatically installed and are no longer required:
-
-  linux-aws-5.11-headers-5.11.0-1022 linux-headers-5.11.0-1022-aws linux-image-5.11.0-1022-aws linux-modules-5.11.0-1022-aws
-
-Use 'sudo apt autoremove' to remove them.
-
-The following additional packages will be installed:
-
-  git-man
-
-Suggested packages:
-
-  git-daemon-run | git-daemon-sysvinit git-doc git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
-
-The following packages will be upgraded:
-
-  git git-man
-
-2 upgraded, 0 newly installed, 0 to remove and 99 not upgraded.
-
-Need to get 7826 kB of archives.
-
-After this operation, 945 kB of additional disk space will be used.
-
-Do you want to continue? [Y/n] y
-
-Get:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal/main amd64 git amd64 1:2.36.1-0ppa1~ubuntu20.04.1 [5886 kB]
-
-Get:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal/main amd64 git-man all 1:2.36.1-0ppa1~ubuntu20.04.1 [1940 kB]
-
-Fetched 7826 kB in 2s (4390 kB/s) 
-
-(Reading database ... 270648 files and directories currently installed.)
-
-Preparing to unpack .../git_1%3a2.36.1-0ppa1~ubuntu20.04.1_amd64.deb ...
-
-Unpacking git (1:2.36.1-0ppa1~ubuntu20.04.1) over (1:2.34.1-0ppa1~ubuntu20.04.1) ...
-
-Preparing to unpack .../git-man_1%3a2.36.1-0ppa1~ubuntu20.04.1_all.deb ...
-
-Unpacking git-man (1:2.36.1-0ppa1~ubuntu20.04.1) over (1:2.34.1-0ppa1~ubuntu20.04.1) ...
-
-Setting up git-man (1:2.36.1-0ppa1~ubuntu20.04.1) ...
-
-Setting up git (1:2.36.1-0ppa1~ubuntu20.04.1) ...
-
-Processing triggers for man-db (2.9.1-1) ...
 
 suniljainvodafo@ip-172-31-30-68:~$ mkdir project_sunil    (Working Directory)
 
